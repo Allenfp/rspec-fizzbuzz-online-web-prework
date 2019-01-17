@@ -16,5 +16,5 @@ def fizzbuzz(num)
   end
 end
 
-y = fizzbuzz(4)
+y = fizzbuzz(15)
 puts y
