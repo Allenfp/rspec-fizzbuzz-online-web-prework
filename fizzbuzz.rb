@@ -3,12 +3,14 @@
 
 def fizzbuzz(num)
   x = ""
-  if num % 3 == 0
+
+  if num % 3 == 0 && num % 5
+  x = "FizzBuzz"
+  elsif num % 3 == 0
     x = "Fizz"
   elsif num % 5 == 0
     x = "Buzz"
-  elsif num % 3 == 0 && num % 5
-    x = "FizzBuzz"
+
   x
 
   end
