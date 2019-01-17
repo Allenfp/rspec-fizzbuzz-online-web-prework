@@ -5,7 +5,7 @@ def fizzbuzz(num)
   x = ""
 
   if num % 3 == 0 && num % 5
-  x = "FizzBuzz"
+    x = "FizzBuzz"
   elsif num % 3 == 0
     x = "Fizz"
   elsif num % 5 == 0
@@ -16,5 +16,5 @@ def fizzbuzz(num)
   end
 end
 
-y = fizzbuzz(15)
+y = fizzbuzz(4)
 puts y
